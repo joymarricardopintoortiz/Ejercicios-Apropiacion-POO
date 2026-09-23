@@ -8,7 +8,7 @@ class Estudiante:
         if 0 <= nota <= 5:
             return nota
         else:
-            raise ValueError("Lanota debe estar entre 0 y 5.")
+            raise ValueError("La nota debe estar entre 0 y 5.")
 
     def obtener_nota_promedio(self):
         return (self.__nota1 + self.__nota2) / 2
